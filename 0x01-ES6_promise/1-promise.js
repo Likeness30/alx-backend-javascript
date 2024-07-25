@@ -60,13 +60,14 @@ export default function getFullResponseFromAPI(success) {
     }
   });
   myPromise.then((result) => {
-    console.log(myPromise);
-    return result;
+    // console.log(myPromise);
+    // return result;
   }).catch((err) => {
-    console.log(myPromise);
-    return err;
+    // console.log(myPromise);
+    // return err;
   });
+  return myPromise;
 }
 
-getFullResponseFromAPI(true);
-getFullResponseFromAPI(false);
+// getFullResponseFromAPI(true);
+// getFullResponseFromAPI(false);
