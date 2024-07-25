@@ -59,15 +59,6 @@ export default function getFullResponseFromAPI(success) {
       reject(new Error('The fake API is not working currently'));
     }
   });
-  myPromise.then((result) => {
-    // console.log(myPromise);
-    return result;
-  }).catch((err) => {
-    // console.log(myPromise);
-    return err;
-  });
+  myPromise.then((result) => result).catch((err) => err);
   return myPromise;
 }
-
-// getFullResponseFromAPI(true);
-// getFullResponseFromAPI(false);
