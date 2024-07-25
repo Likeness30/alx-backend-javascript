@@ -61,10 +61,10 @@ export default function getFullResponseFromAPI(success) {
   });
   myPromise.then((result) => {
     // console.log(myPromise);
-    // return result;
+    return result;
   }).catch((err) => {
     // console.log(myPromise);
-    // return err;
+    return err;
   });
   return myPromise;
 }
