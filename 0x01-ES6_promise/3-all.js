@@ -1,4 +1,4 @@
-// Let's first of all, import the necessary functions from utils.js
+// Let me import the necessary functions from utils.js
 import { uploadPhoto, createUser } from './utils';
 
 export default function handleProfileSignup() {
